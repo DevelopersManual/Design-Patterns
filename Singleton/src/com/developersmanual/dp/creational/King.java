@@ -7,6 +7,7 @@ package com.developersmanual.dp.creational;
  * @author admin
  *This is a simple singleton instance. THis will give the same object even if you are tried for many times.
  *In case of MulitThreaded environment we have some issues related to singleton. check other implementaions for solutions.
+ *This is also called as lazy intialization, as this method will not create an object until you access it.
  */
 public class King {
 
