@@ -1,0 +1,12 @@
+package com.developersmanual.dp.creational;
+
+//for a kingdom only one King will exist(logical reasoning).
+public class KingdomSingletonClient {
+
+	public static void main(String[] args) {
+		King king = King.getInstance();
+		System.out.println(king);
+		King king1 = King.getInstance();
+		System.out.println(king == king1);
+	}
+}
